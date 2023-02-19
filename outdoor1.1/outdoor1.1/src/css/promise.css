@@ -1,0 +1,161 @@
+.promise {
+    padding: 100px 0 159px;
+    background-color: #FAFAFC;
+
+    position: relative;
+}
+
+.promise::before {
+    content: url(../images/promise-before.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.promise::after {
+    content: url(../images/promise-after.svg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.promise-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: var(--gold);
+}
+.promise-title {
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 7px;
+}
+.promise-desc {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: var(--black);
+    margin-bottom: 70px;
+}
+
+.promise-row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 110px;
+    column-gap: 30px;
+
+}
+
+.promise-card {
+    width: calc(33.33333% - 20px);
+    text-align: center;
+}
+
+.promise-card-circle {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--black);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promise-card-title {
+font-family: 'Roboto';
+font-size: 20px;
+line-height: 24px;
+color: var(--black);
+margin: 10px 0;
+
+}
+.promise-card-desc {
+    font-style: 14px;
+    line-height: 20px;
+    color: var(--black);
+}
+
+@media (max-width: 1205px) {
+    .promise {
+        padding: 100px 0;
+    }
+    .promise-row {
+        column-gap: 30px;
+        row-gap: 110px;
+    
+    }
+
+    .promise-card {
+        width: calc(33.33333% - 20px);
+        
+    }
+}
+
+@media (max-width: 992px) {
+    .promise-row {
+        row-gap: 80px;
+    }
+    .promise-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 601px){
+    .promise{
+        padding: 60px 0;
+    }
+    .promise::before{
+        display: none;
+    }
+    .promise-row {
+        row-gap: 50px;
+    }
+    .promise-desc{
+        margin-bottom: 50px;
+    }
+    .promise-desc br{
+        display: none;
+    }
+}
+
+
+@media (max-width: 526px) {
+    .promise {
+        padding: 60px 0;
+    }
+    .promise::after, .promise::before {
+        display: none;
+    }
+
+    .promise-title {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .promise-desc {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .promise-row {
+        row-gap: 30px;
+    }
+
+    .promise-card {
+        width: 100%;
+    }
+
+
+}

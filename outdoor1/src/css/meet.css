@@ -1,0 +1,139 @@
+.meet {
+    padding: 100px 0;
+}
+
+.meet-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: var(--gold);
+
+}
+.meet-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 7px;
+}
+.meet-desc {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 21px;
+
+}
+.met-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.meet-card {
+    width: calc(33.33333% - 10px);
+    height: 473px;
+    border-radius: 10px;
+
+    padding-top: 40px;
+    text-align: center;
+    transition: .5s;
+    opacity: .85;
+
+}
+
+.meet-card:hover {
+    transform: translateY(-10px);
+    transition: .5s;
+    opacity: 1;
+
+
+}
+
+.meet-card.accessories {
+    background: url(../images/meet/Accessories.png) center/cover no-repeat;
+}
+.meet-card.apparel {
+    background: url(../images/meet/Apparel.png) center/cover no-repeat;
+}
+.meet-card.climbing{
+    background: url(../images/meet/Climbing\ Gear.png) center/cover no-repeat;
+
+}
+.meet-card.headwear{
+    background: url(../images/meet/Headwear.png) center/cover no-repeat;
+
+}
+.meet-card.hiking{
+    background: url(../images/meet/Hiking\ Gear.png) center/cover no-repeat;
+
+}
+
+.meet-card.jckets{
+    background: url(../images/meet/Jackets.png) center/cover no-repeat;
+
+}
+
+.meet-card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    line-height: 34px;
+    color: var(--black);
+}
+.meet-card-desc {
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--black);
+    margin: 9px 0 20px;
+}
+.meet-card-link {
+    font-size: 15px;
+    line-height: 21px;
+    color: var(--black);
+}
+
+.meet-card-link:hover {
+    transition: .5s;
+    color: var(--gold);
+
+}
+
+.meet-card-link svg path {
+    transition: .5s;
+
+}
+.meet-card-link:hover svg path {
+    transition: .5s;
+    fill: var(--gold);
+}
+
+.promise-all {
+    text-align: center;
+    margin-top: 21px;
+
+}
+
+.promise-all-link {
+    font-size: 15px;
+    line-height: 21px;
+    color: var(--black);
+
+}
+
+.promise-all-link:hover {
+    transition: .5s;
+    color: var(--gold);
+
+}
+
+.promise-all-link svg path {
+    transition: .5s;
+
+}
+.promise-all-link:hover svg path {
+    transition: .5s;
+    fill: var(--gold);
+}

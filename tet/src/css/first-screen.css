@@ -1,0 +1,39 @@
+
+.first-screen {
+    padding: 43px 0 73px;
+
+}
+
+.first-screen-row {
+    display: flex;
+    column-gap: 244px;
+    
+}
+
+.first-screen-img {
+    width: 460px;
+    height: 476px;
+}
+.first-screen-right {
+    padding-top: 34px;
+}
+.first-screen-title {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 70px;
+    color: #303B40;
+    margin-bottom: 71px;
+
+}
+
+.first-screen-list-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #303B40;
+}
+
+.first-screen-list-item span:first-child {
+    margin-right: 10px;
+}
+

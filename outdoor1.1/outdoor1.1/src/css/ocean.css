@@ -1,0 +1,46 @@
+.ocean {
+    margin: 0 auto;
+    position: relative;
+}
+
+.ocean-video {
+    max-width: 100%;
+    margin: 0 auto;
+   
+}
+.ocean-list {
+    position: absolute;
+    right: 30px;
+    bottom: 38px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+
+    background-color: #292C32;
+    padding: 19px 24px ;
+    border-radius: 16px;
+}
+
+.ocean-link {
+    font-size: 13px;
+    line-height: 12px;
+    transition: .5s;
+    color: #FFFFFF;
+}
+
+.ocean-link:hover {
+    transition: .5s;
+    color: var(--gold);
+}
+
+@media (max-width: 1025px) {
+    .ocean-list {
+        bottom: 38px;
+    }
+}
+
+@media (max-width: 769px){
+    .ocean {
+        display: none;
+    }
+}

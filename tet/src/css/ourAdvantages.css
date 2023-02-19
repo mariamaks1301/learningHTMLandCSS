@@ -1,0 +1,78 @@
+.ourAdvantages {
+    position: relative;
+}
+
+/* .ourAdvantages::before {
+    content: url(../images/b.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+} */
+
+.ourAdvantages .column-text {
+    color: #8C969A;
+}
+
+.ourAdvantages .whoIs-column {
+    border: none;
+    padding-left: 68px;
+}
+
+.ourAdvantages .whoIs-column-title2 {
+    margin-bottom: 44px;
+}
+
+.ourAdvantages .whoIs-column-title3 {
+    position: relative;
+}
+
+.ourAdvantages-block-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: -68px;
+    transform: translateY(-50%);
+
+}
+.ourAdvantages-block-icon1{
+    background: rgb(246, 154, 27, 0.15) url(../images/advantages/icon1.svg) center no-repeat;
+
+}
+.ourAdvantages-block-icon2{
+    background: rgb(246, 154, 27, 0.15) url(../images/advantages/icon2.svg) center no-repeat;
+
+} 
+
+.ourAdvantages-block-icon3 {
+    background: rgb(246, 154, 27, 0.15) url(../images/advantages/icon3.svg) center no-repeat;
+}
+.ourAdvantages-block-icon4{
+    background: rgb(246, 154, 27, 0.15) url(../images/advantages/icon4.svg) center no-repeat;
+
+}
+.ourAdvantages-block-icon5{
+    background: rgb(246, 154, 27, 0.15) url(../images/advantages/icon5.svg) center no-repeat;
+
+} 
+
+.ourAdvantages-bottom {
+    padding: 62px 0 67px 99px;
+    margin-left: 98px;
+    margin-right: 98px;
+
+    background-color: #F6F8F9;
+}
+
+.ourAdvantages-bottom-text {
+    
+    color: #303B40;
+    margin-top: 13px;
+    padding-left: 100px;
+}
+

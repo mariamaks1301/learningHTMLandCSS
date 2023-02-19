@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1230px;
+
+    padding: 0 15px;
+    margin:  0 auto;
+
+}
+
+.header {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #353942;
+    padding: 15px 0 10px;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-menu {
+    display: flex;
+    column-gap: 20px;
+
+    
+}
+
+.nav-item {
+    list-style-type: none;
+    
+
+}
+
+.nav-link {
+    color: #a8a8a8;
+    list-style-type: none;
+    text-decoration: none;
+    
+    transition: 0.2s linear;
+}
+
+.nav-link:hover {
+    color: #fff;
+    transition: 0.2s linear;
+}
+
+
+
+
+.business-row {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 50px 0;
+}
+.business-img {
+    max-width: 60%;
+    margin-right: 30px;
+   
+    
+}
+.business-column {
+
+    margin: auto 0;
+
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+
+}
+
+.business-title {
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.business-text {
+    margin: 20px 0 20px;
+}
+ .business-btn {
+    display: inline-block;
+
+    padding: 13px 20px;
+
+}
+
+.btn {
+
+    background-color: #047afe;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.info-text {
+    background-color: #6e747e;
+    color: #fff;
+    text-align: center;
+
+    border: none;
+    border-radius: 3px;
+    padding: 35px 0;
+
+    margin-bottom: 30px;
+
+}
+
+/* Cards */
+
+.cards {
+    margin-bottom: 30px;
+}
+
+.cards-row {
+    display: flex;
+    column-gap: 15px;
+    
+}
+
+.cards-column {
+    width: calc(33.33333% - 10px);
+    padding: 15px 0;
+
+    border: 1px solid #a8a8a8;
+    border-radius: 5px;
+    
+}
+
+
+.cards-text {
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+.cards-button {
+    width: 100px;
+    height: 35px;
+
+    margin-top: 10px;
+}
+
+.cards-column-top {
+    border-bottom: 1px solid #a8a8a8;
+    padding: 0 0 0 20px;
+     
+}
+
+.cards-column-bottom {
+    padding: 0 0 0 20px;
+
+}
+

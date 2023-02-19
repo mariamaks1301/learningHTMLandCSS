@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    list-style-type: none;
+}
+
+li {
+    color: black;
+    position: relative;
+
+    transition: 2s linear;
+}
+
+
+li::after {
+    position: absolute;
+
+    top: -150%;
+    left: -55%;
+
+    /* display: inline-block; */
+ 
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-right: 3px solid black;
+    border-bottom: 3px solid red;
+    border-left: 3px solid blue;
+    border-top: 3px solid green;
+
+
+}
+
+
+
+li:hover::after{
+    transition: 2s;
+    transform: rotate(3600deg);
+    
+}
+
+
+

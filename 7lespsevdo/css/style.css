@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 60px;
+    color: purple;
+    font-style: italic;
+
+    transition: 2s;
+}
+
+h1:hover {
+    color: black;
+    font-style: normal;
+    font-size: 80px;
+
+    transition: 2s;
+
+    transform:scale(1.5)
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: purple;
+    transition: 1s;
+
+}
+
+.box:hover {
+    transition: 1s;
+    transform: skew(22deg);
+
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: gold;
+}
+
+p:not(.text) {
+    color: red;
+    font-size: 20px;
+}
+
+ul {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+
+ul:last-of-type li:last-child {
+
+    color: blue;
+}

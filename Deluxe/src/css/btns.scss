@@ -1,0 +1,22 @@
+.btns{
+    display: flex;
+    justify-content: center;
+    column-gap: 75px;
+}
+
+.btn{
+    padding: 23px 32px;
+    border: 1px solid #E1DECE;
+    border-radius: 5px;
+    background: $black;
+    cursor: pointer;
+    transition: 0.4s;
+
+    @include text($Gar, normal, 600, 14px, 16px, $milk);
+    &:hover{
+        background: $milk;
+        color: $black;
+        transition: 0.4s;
+        border: 1px solid #E1DECE;  
+    }
+}

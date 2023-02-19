@@ -1,0 +1,31 @@
+.miele{
+    background: $black;
+    padding: 150px;
+    &__titles{
+        margin-bottom: 90px;
+        text-align: end;
+    }
+    &__title {
+        @include text($Gar, normal, 400, 40px, 60px, #fff);
+        & span{
+            text-transform: uppercase;
+        }
+    }
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 50px;
+    }
+    &__card {
+        width: calc(50% - 25px);
+        display: flex;
+        column-gap: 48px;
+        align-items: center;
+
+        &-img-top:hover{
+           background: url(../image/miele_hover.png);
+           fill: white;
+        }
+    }
+}
+

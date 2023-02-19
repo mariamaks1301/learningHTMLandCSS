@@ -1,0 +1,87 @@
+.home{
+    padding: 185px 0 249px;
+    background: $black url(../image/home-bg.png) center/cover no-repeat;
+
+    margin-left: 96px;
+    position: relative;
+    // background: linear-gradient(126.33deg, rgba(85, 80, 80, 0.45) -43.79%, rgba(222, 211, 109, 0) 52.43%);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    // background-clip: text;
+    // text-fill-color: transparent;
+
+    &__logo::before{
+        content: url(../image/logo.svg);
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -30%);
+        z-index: 7;
+    }
+    &__after{
+        position: absolute;
+        right: 10px;
+        bottom: -50px;
+
+        // font-family: $Rob;
+        // font-style: normal;
+        // font-weight: 900;
+        // font-size: 90px;
+        // line-height: 105px;
+
+        // background: linear-gradient(126.33deg, rgba(85, 80, 80, 0.8) -43.79%, rgba(222, 211, 109, 0.05) 52.43%);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+        // background-clip: text;
+        // // text-fill-color: transparent;
+        // transition: 0.4s;
+        &:hover{
+            background: linear-gradient(126.33deg, rgba(85, 80, 80, 0.8) -43.79%, rgba(222, 211, 109, 0.1) 52.43%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            // text-fill-color: transparent;
+            transition: 0.4s;
+        }
+    }
+
+    &__title{
+        font-family: $Gar;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        text-align: center;
+        color: #FFFFFF;
+        & span{
+            color: $milk;
+        }
+    }
+    &__subtitle{
+        font-family: $Rob;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        margin: 22px 0 10px;
+
+        color: #FFFFFF;
+    }
+    &__btn{
+        cursor: pointer;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #191919;
+
+        display: block;
+        margin: 0 auto;
+        padding: 23px 50px;
+        border-radius: 50px;
+        border: none;
+
+
+    }
+}

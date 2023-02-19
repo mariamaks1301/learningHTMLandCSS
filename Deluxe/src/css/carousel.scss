@@ -1,0 +1,143 @@
+
+.carousel{
+    background: $black;
+    padding-bottom: 40px;
+    position: relative;
+    &__title{
+        @include text($Gar, normal, 400, 40px, 46px, #FFFFFF);
+        text-align: center;
+        margin-bottom: 20px;
+        & span{
+            color: $milk;
+        }
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 38px;
+
+        margin: 34px 0 105px;
+    }
+    &__img{
+        width: calc(50% - 19px);
+    
+        display: flex;
+        column-gap: 24px;
+        position: relative;
+
+  
+    }
+    &__info{
+        width: calc(50% - 19px);
+
+    }
+    &__text{
+        @include text($Rob, normal, 400, 16px, 26px, #FFFFFF);
+        &:nth-child(2){
+            margin: 33px 0;
+        }
+    }
+
+    &__stats{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 36px;
+        margin: 33px 0 54px;
+
+    }
+    &__stat{
+        width: calc(33.33333% - 24px);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        &-rotate{
+        @include text($Rob, normal, 400, 12px, 14px, #FFFFFF);
+            text-transform: uppercase;
+            transform:rotate(-90deg);
+            max-width: 3px;
+            margin-bottom: -30px;
+        }
+        &-num{
+            @include text($Rob, normal, 500, 45px, 53px, #FFFFFF);
+            text-transform: uppercase;
+        }
+        &-text{
+            @include text($Rob, normal, 400, 12px, 14px, #FFFFFF);
+            text-transform: uppercase;
+            
+        }
+    }
+    &__desc{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        column-gap: 48px;
+        &-text{
+            @include text('Segoe Script', italic, 400, 16px, 25px, #E1DECE);
+            text-transform: capitalize;
+        }
+        &-sign{
+            background: $black;
+        }
+    }
+    &__btn-aboutus{
+        width: 220px;
+    }
+    &__btn-service{
+        width: 220px;
+
+
+    }
+    &__btns{
+        margin-bottom: 40px;
+    }
+}
+.swiper {
+    width: 100%;
+    height: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: $black;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    object-fit: cover;
+  }
+// .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+//     content: url(../image/carousel/next.png);
+//     width: 10px;
+//     background: $milk;
+//     padding: 6px 8px;
+//     border-radius: 50%;
+// }
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 35%;
+   
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 51%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    top: 80%;
+}

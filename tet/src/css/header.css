@@ -1,0 +1,81 @@
+.header {
+  position: relative;
+}
+
+.first-screen::before {
+    content: url(../images/bg/bg-top.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -100;
+}
+
+.header-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0 18px;
+}
+
+.header-top-right {
+    display: flex;
+    column-gap: 11px;
+}
+.header-top-phone {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #303B40;
+}
+.header-top-btn-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 19px 19px;
+    background-color: #fff;
+    border: 1px solid #E8E8E8;
+    cursor: pointer;
+}
+
+.header-top-btn-text {
+  
+    transition: 0.3s;
+
+}
+
+
+
+.header-top-btn-text:hover {
+    transition: 0.3s;
+    color: #fff;
+}
+
+.header-hr {
+    border: 1px solid #5477BB;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #303B40;
+}
+
+.header-link:hover {
+    transition: 0.3s;
+    color: #F69A1B;
+}
+

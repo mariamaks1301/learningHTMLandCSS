@@ -1,0 +1,101 @@
+{
+    "flats": [
+        {
+            "id": 1,
+            "title": "Дом для двух поколений",
+            "subtitle" : "Уютная студия в ЖК Адмирал",
+            "type": "house",
+            "price": 4000,
+            "image": "https://www.interiorzine.com/wp-content/uploads/2017/11/tiny-apartment-design-ideas-folding-glass-walls.jpg"
+
+        },
+        {
+            "id": 2,
+            "title": "Дом для двух поколений",
+            "type": "house",
+            "price": 6000,
+            "image": "https://interior.kg/wp-content/uploads/2021/01/1-4.jpg"
+
+        },
+        {
+            "id": 3,
+            "title": "Дом для двух поколений",
+            "type": "commercial",
+            "price": 7000,
+            "image": "https://interior.kg/wp-content/uploads/2021/02/3-2-2.jpg"
+
+        },
+        {
+            "id": 4,
+            "title": "Дом для двух поколений",
+            "type": "commercial",
+            "price": 7000,
+            "image": "https://interior.kg/wp-content/uploads/2021/02/3-3-2.jpg"
+
+        },
+        {
+            "id": 5,
+            "title": "Дом для двух поколений",
+            "type": "house",
+            "price": 7000,
+            "image": "https://www.interiorzine.com/wp-content/uploads/2017/11/saving-space-with-suspended-bedroom.jpg"
+
+        },
+        {
+            "id": 6,
+            "title": "Дом для двух поколений",
+            "type": "commercial",
+            "price": 7000,
+            "image": "https://interior.kg/wp-content/uploads/2021/02/2-10.jpg"
+
+        },
+        {
+            "id": 7,
+            "title": "Дом для двух поколений",
+            "type": "house",
+            "price": 7000,
+            "image": "https://interior.kg/wp-content/uploads/2021/02/17.jpeg"
+
+        },
+        {
+            "id": 8,
+            "title": "Дом для двух поколений",
+            "type": "house",
+            "price": 7000,
+            "image": "https://interior.kg/wp-content/uploads/2022/10/4-2.jpg"
+
+        },
+        {
+            "id": 9,
+            "title": "Дом для двух поколений",
+            "type": "commercial",
+            "price": 7000,
+            "image": "https://interior.kg/wp-content/uploads/2022/10/100%D0%9C00.jpg"
+
+        },
+        {
+            "id": 10,
+            "title": "Дом для двух поколений",
+            "type": "house",
+            "price": 7000,
+            "image": "https://interior.kg/wp-content/uploads/2022/10/8.jpg"
+
+        },
+        {
+            "id": 11,
+            "title": "Дом для двух поколений",
+            "type": "commercial",
+            "price": 7000,
+            "image": "https://interior.kg/wp-content/uploads/2021/02/1-8.jpg"
+
+        },
+        {
+            "id": 12,
+            "title": "Дом для двух поколений",
+            "type": "house",
+            "price": 7000,
+            "image": "https://interior.kg/wp-content/uploads/2022/10/3-2.jpg"
+
+        }
+    ]
+}

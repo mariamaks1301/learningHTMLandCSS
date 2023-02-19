@@ -1,0 +1,30 @@
+.posting {
+    padding-top: 100px;
+}
+.container {
+}
+.posting .title2 {
+    margin-bottom: 50px;
+}
+.posting-row {
+    display: flex;
+    column-gap: 30px;
+
+    padding-bottom: 100px;
+}
+.posting-column {
+    width: calc(33.33333% - 20px);
+}
+.posting-img {
+    width: 362px;
+    height: 230px;
+
+    margin-bottom: 14px;
+}
+.posting-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #303B40;
+
+}

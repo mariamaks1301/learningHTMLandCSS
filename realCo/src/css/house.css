@@ -1,0 +1,97 @@
+.house {
+    background: #F5F5F2;
+    padding: 160px 0 162px;
+    position: relative;
+}
+
+.house .container {
+    /* display: flex; */
+}
+
+.house__left {
+    width: 50%;
+    margin:  164px 0 162px;
+}
+
+
+
+.house::before {
+    content: url(../images/before-top.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.house::after {
+    content: url(../images/after-bottom.png);
+    position: absolute;
+    bottom: -4px;
+    right: 50%;
+}
+
+.house__title {
+    margin: 20px 0;
+    font-size: 56px;
+    line-height: 1.2;
+    color: #2A2C1F;
+
+}
+
+.house__desc {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #65665C;
+    margin-bottom: 21px;
+}
+
+.house__img {
+
+    width: 100%;
+    width: 720px;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+}
+
+/* @media (max-width: 1301px){
+    .house__img {
+        width: 100%;
+        max-width: 720px;
+        margin-right: 0;
+    }
+    .house__left {
+        width: 50%;
+        margin: auto 0;
+    }
+}
+
+@media (max-width: 1025px){
+  
+
+    .house::before {
+        display: none;
+    }
+
+    .house::after {
+        display: none;
+    }
+
+    .house__title {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+    .house__desc {
+        font-size: 18px;
+    }
+
+
+}
+
+@media (max-width: 992px){
+    .house__img {
+        height: 100%;
+    }
+} */

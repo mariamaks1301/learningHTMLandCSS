@@ -1,0 +1,17 @@
+.copyright{
+    padding: 41px 0 45px;
+    background: $black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright__left{
+    @include text($Rob, normal, 400, 15px, 25px, $milk);
+
+}
+.copyright__right{
+    @include text($Rob, normal, 400, 15px, 25px, $milk);
+
+}

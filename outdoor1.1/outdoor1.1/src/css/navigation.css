@@ -1,0 +1,162 @@
+.navigation {
+    padding: 100px 0;
+}
+
+.navigation-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+
+}
+.navigation-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--black);
+}
+.navigation-desc {
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+    margin: 7px 0 21px;
+
+}
+
+.navigation-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+
+    
+}
+.navigation-card {
+    width: calc(50% - 16px);
+}
+.navigation-card-img {
+    width: 100%;
+    max-width: 568px;
+    max-height: 319px;
+}
+.navigation-card-text {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+
+    min-height: 48px;
+    margin: 18px 0 12px;
+}
+
+.navigation-card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-card-user {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+.navigation-card-bottom-img {
+    width: 50px;
+    height: 50px;
+}
+
+.navigation-card-name {
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--black);
+
+}
+.navigation-card-prof {
+    font-size: 11px;
+    line-height: 15px;
+    color: var(--gold);
+
+}
+.navigation-card-date {
+    font-size: 13px;
+    line-height: 18px;
+    color: #6F7278;
+
+}
+
+.navigation-show {
+    text-align: center;
+    margin-top: 27px;
+
+}
+
+.navigation-show-link {
+    font-size: 15px;
+    line-height: 21px;
+    color: var(--black);
+    transition: .5s;
+}
+
+.navigation-show-link:hover {
+    transition: .5s;
+    color: var(--gold);
+}
+
+.navigation-show-link svg path {
+    transition: .5s;
+}
+
+.navigation-show-link:hover svg path {
+    transition: .5s;
+    fill: var(--gold);
+}
+
+@media (max-width: 1025px) {
+    .navigation {
+        padding: 100px 0 50px;
+    }
+
+
+}
+
+@media (max-width: 769px) {
+    .navigation {
+        padding: 50px 0 20px;
+    }
+
+    .navigation-title {
+        font-size: 30px;
+    }
+
+    .navigation-row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .navigation-card {
+        width: 100%;
+    }
+    .navigation-card-text {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 526px) {
+    .navigation-desc {
+        font-size: 15px;
+    }
+
+    .navigation-card-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 392px){
+    .navigation-title{
+        font-size: 28px;
+    }
+    .navigation-desc br{
+        display: none;
+    }
+}

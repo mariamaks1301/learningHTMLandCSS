@@ -1,0 +1,36 @@
+
+
+.logoipsum__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 67px;
+}
+.logoipsum__text {
+    font-size: 18px;
+    line-height: 27px;
+    color: #2A2C1F;
+
+}
+.logoipsum__images {
+    display: flex;
+    column-gap: 32px;
+}
+.logoipsum__img {
+    width: 120px;
+}
+
+@media (max-width: 1025px) {
+    .logoipsum__row {
+        margin-top: 45px;
+    }
+
+    .logoipsum__images {
+        column-gap: 22px;
+    }
+
+    .logoipsum__text {
+        font-size: 16px;
+    }
+}

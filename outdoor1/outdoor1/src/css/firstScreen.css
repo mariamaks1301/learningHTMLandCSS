@@ -1,0 +1,24 @@
+.firstScreen {
+    background: url(../images/firsScreen.png) center/cover no-repeat;
+    padding: 218px 0 227px;
+}
+
+.firstScreen-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--gold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.firstScreen-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    color: #fff;
+    margin-bottom: 9px;
+}
+.firstScreen-desc {
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+}

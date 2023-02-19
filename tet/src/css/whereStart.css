@@ -1,0 +1,77 @@
+.whereStart {
+    padding-top: 100px;
+}
+.container {
+}
+.whereStart .title2 {
+    margin-bottom: 49px;
+}
+.whereStart-row {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 65px;
+}
+.whereStart-column {
+    width: calc(33.33333% -20px);
+}
+.whereStart .title3 {
+    color: #F69A1B;
+    margin: 26px 0 11px;
+}
+
+
+.whereStart-column-number {
+    width: 50px;
+    height: 50px;
+    background-color: #5477BB;
+
+    font-size: 28px;
+    line-height: 44px;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whereStart .block-orange {
+    display: flex;
+    column-gap: 76px;
+    padding: 46px 98px 48px;
+    color: #fff;
+}
+
+.whereStart-block-left {
+    width: 68%;
+}
+.whereStart .desc {
+    color: #fff;
+    margin-bottom: 17px;
+}
+.whereStart .column-text {
+    color: #fff;
+    
+}
+
+
+.whereStart-block-right {
+    width: 32%;
+
+    display: flex;
+    align-items: flex-end;
+}
+.whereStart-btn-blue {
+    padding: 16px 36px;
+    background-color: #5477BB;
+
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.whereStart-column .column-text {
+    color: #303B40;   
+}

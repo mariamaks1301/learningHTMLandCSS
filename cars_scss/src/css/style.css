@@ -1,0 +1,135 @@
+@import "../fonts/MuseoSans/stylesheet.css";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1185px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  font-family: "Museo Sans Rounded 700", sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 17px 31px;
+  border-radius: 43px;
+  border: none;
+  cursor: pointer;
+}
+.btn_green {
+  background: -webkit-gradient(linear, left bottom, left top, from(#077A34), to(#19E270));
+  background: linear-gradient(360deg, #077A34 0%, #19E270 100%);
+  -webkit-box-shadow: 0px 9px 48px rgba(24, 220, 109, 0.15);
+          box-shadow: 0px 9px 48px rgba(24, 220, 109, 0.15);
+  border: 1px solid #18DC6D;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.btn_green:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #FFFFFF;
+  color: #18DC6D;
+  border: 1px solid #18DC6D;
+}
+.btn_red {
+  background: -webkit-gradient(linear, left bottom, left top, from(#A8180F), to(#DD463D));
+  background: linear-gradient(360deg, #A8180F 0%, #DD463D 100%);
+  -webkit-box-shadow: 0px 9px 48px rgba(211, 61, 52, 0.24);
+          box-shadow: 0px 9px 48px rgba(211, 61, 52, 0.24);
+  border: 1px solid #E31E24;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.btn_red:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background: #FFFFFF;
+  color: #E31E24;
+  border: 1 px solid #E31E24;
+}
+
+.header__top {
+  background: #172027;
+  padding: 30px 0;
+}
+.header__top-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+.header__top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 28px;
+     -moz-column-gap: 28px;
+          column-gap: 28px;
+}
+.header__top-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 16px;
+     -moz-column-gap: 16px;
+          column-gap: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__top-call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__number {
+  font-family: "Museo Sans Rounded 700", sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: center;
+  color: #FFFFFF;
+}
+.header__bottom {
+  padding: 15px 0;
+  background: #F2F2F3;
+}
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__link {
+  font-family: "Museo Sans Rounded 300", sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: center;
+  color: #0F0F10;
+}

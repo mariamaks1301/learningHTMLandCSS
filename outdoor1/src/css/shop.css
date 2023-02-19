@@ -1,0 +1,50 @@
+.shop {
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    background-color: #375C58;
+
+    margin-top: -7px;
+
+}
+
+
+
+/* .shop-before::before {
+    content: url(../images/shop-before.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}  */
+
+.shop-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FAFAFC;
+}
+.shop-title {
+    font-family: 'Roboto',sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--gold);
+    margin-bottom: 10px;
+
+}
+.shop-desc {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFC;
+    margin-bottom: 20px;
+
+}
+.shop-btn {
+    padding: 10px 18px 11px;
+    background-color: #FAFAFC;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+}

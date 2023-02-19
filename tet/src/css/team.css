@@ -1,0 +1,44 @@
+
+/* TEAM================================ */
+
+.team {
+    padding: 100px 0;
+
+}
+
+.team-title {
+    margin-bottom: 32px;
+}
+.team-subtitle {
+    margin-bottom: 45px;
+}
+.team-row {
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 100px;
+}
+.team-card {
+    width: calc(25% - 22.5px);
+    text-align: center;
+}
+.team-card-img {
+    width: 264px;
+    height: 286px;
+}
+.team-card-name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #303B40;
+    margin-bottom: 10px;
+    }
+.team-card-prof {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #8C969A;
+}
+
+

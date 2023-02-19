@@ -1,0 +1,67 @@
+.subscribe {
+    padding: 100px 0;
+}
+
+.subscribe-content {
+    display: flex;
+    align-items: center;
+    column-gap: 104px;
+
+}
+
+.subscribe-img-block {
+    width: 50%;
+
+    position: relative;
+}
+
+.subscribe-img-block::before {
+    content: url(../images/before.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    z-index: -1;
+}
+.subscribe-img-block::after {
+    content: url(../images/after.svg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+}
+
+.subscribe-img {
+    width: 100%;
+}
+
+.subscribe-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #E6B939;
+
+}
+.subscribe-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--black);
+
+}
+.subscribe-desc {
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+
+    margin: 8px 0 20px;
+
+
+}
+.subscribe-link {
+    font-size: 15px;
+    line-height: 21px;
+    color: var(--black);
+} 

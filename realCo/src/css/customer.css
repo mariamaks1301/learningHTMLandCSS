@@ -1,0 +1,37 @@
+.customer {
+    padding: 157px 0 160px;
+}
+
+
+.customer__row {
+    margin-top: 80px;
+}
+
+.customer__card {
+    background: #FFFFFF;
+    border: 1px solid #E7E8E3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+
+    padding: 33px;
+}
+
+
+.customer__desc {
+    margin: 27px 0 29px;
+}
+.customer__person img {
+    width: 48px;
+    height: 48px;
+}
+.customer__person-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A2C1F;
+}
+.customer__person-desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: #65665C;
+}

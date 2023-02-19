@@ -1,0 +1,83 @@
+.firstScreen {
+    background: url(../images/firsScreen.png) center/cover no-repeat;
+    padding: 218px 0 227px;
+}
+
+.firstScreen-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--gold);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.firstScreen-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    color: #fff;
+    margin-bottom: 9px;
+}
+.firstScreen-desc {
+    font-size: 17px;
+    line-height: 25px;
+    color: #CACCD1;
+}
+
+@media (max-width: 992px) {
+    .firstScreen {
+        padding: 210px 0;
+    }
+}
+
+
+@media (max-width: 950px) {
+    .firstScreen {
+        padding: 150px 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .firstScreen {
+        padding: 140px 0;
+    }
+}
+
+@media (max-width: 769px) {
+    .firstScreen {
+        padding: 130px 0;
+        text-shadow: 1px 1px 2px black;
+
+
+    }
+}
+
+@media (max-width: 526px) {
+    .firstScreen {
+        padding: 70px 0;
+    }
+    .firstScreen-title {
+        text-shadow: 1px 1px 2px black;
+
+    }
+
+    .firstScreen-desc {
+        font-size: 14px;
+        text-shadow: 1px 1px 2px black;
+        line-height: 25px;
+        color: #CACCD1;
+    }
+}
+
+@media (max-width: 395px){
+    .firstScreen-title br{
+        display: none;
+    }
+    .firstScreen-title{
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .firstScreen-desc br{
+        display: none;
+    }
+    
+}

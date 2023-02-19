@@ -1,0 +1,105 @@
+
+/* Expirience===================*/
+
+.experience {
+    padding: 100px 0;
+
+    position: relative;
+
+}
+
+.experience::before {
+    content: url(../images/bg/bg-experience.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.experience-row {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+
+    margin-bottom: 34px;
+}
+.experience-left {
+    width: 60%;
+}
+.experience-left-title {
+    margin-bottom: 34px;
+}
+.experience-left-subtitle {
+    margin-bottom: 49px;
+
+}
+.text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #303B40;
+}
+
+
+.experience-right {
+    width: 40%;
+    padding: 43px 0 52px 74px;
+
+    
+    
+}
+
+
+
+.experience-right-title {
+    color: #F69A1B;
+    margin-bottom: 27px;
+}
+
+
+.experience-text {
+  
+    margin-bottom: 114px;
+}
+
+
+
+.experience-image-block {
+    position: relative;
+    width: 1354px;
+    height: 560px;
+
+
+}
+.experience-img {
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.experience-upper-img {
+    width: 556px;
+    height: 362px;
+   
+    padding: 56px 67px 74px;
+
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    transform: translateY(-50%);
+   
+}
+
+.experience-upper-img-title {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 24px;
+
+
+}
+
+
+

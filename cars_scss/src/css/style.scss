@@ -1,0 +1,23 @@
+@import "../fonts/MuseoSans/stylesheet.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1185px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+$museo700 :  'Museo Sans Rounded 700', sans-serif;
+$museo300 :  'Museo Sans Rounded 300', sans-serif;
+
+@import "btn";
+@import "header";
+
+

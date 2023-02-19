@@ -1,0 +1,19 @@
+h1{
+    color: purple;
+    text-align: center;
+}
+
+p{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.title{
+    color: red;
+    font-style: 50px;
+    font-style: normal;
+}
